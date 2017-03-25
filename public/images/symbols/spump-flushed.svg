@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="330 420 47 47" width="47pt" height="47pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.2 
+    <dc:date>2017-03-24 03:58:57 +0000</dc:date>
+  </metadata>
+  <defs>
+    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdffff"/>
+      <stop offset="1" stop-color="#ff7e79"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(345.71195 424.1804) rotate(90) scale(8.167653)"/>
+    <linearGradient x1="0" x2="1" id="Gradient_2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdffff"/>
+      <stop offset="1" stop-color="#ff7e79"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient_2" xl:href="#Gradient_2" gradientTransform="translate(357.6352 424.1804) rotate(90) scale(37.2445)"/>
+    <linearGradient id="Obj_Gradient_3" xl:href="#Gradient" gradientTransform="translate(332.80446 420.75) rotate(90) scale(15.028482)"/>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Objects</title>
+    <g>
+      <title>Small Pump</title>
+      <rect x="334.6089" y="424.1804" width="22.206072" height="8.167653" fill="url(#Obj_Gradient)"/>
+      <rect x="334.6089" y="424.1804" width="22.206072" height="8.167653" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 347.71067 459.383 C 348.03876 459.383 344.3478 462.73174 344.3478 462.73174 L 370.9226 462.40503 L 367.64175 459.13797 C 367.64175 459.13797 347.3826 459.383 347.71067 459.383 Z" fill="#a2a4a4"/>
+      <path d="M 347.71067 459.383 C 348.03876 459.383 344.3478 462.73174 344.3478 462.73174 L 370.9226 462.40503 L 367.64175 459.13797 C 367.64175 459.13797 347.3826 459.383 347.71067 459.383 Z" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <ellipse cx="357.6352" cy="442.80266" rx="18.86483" ry="18.622279" fill="url(#Obj_Gradient_2)"/>
+      <ellipse cx="357.6352" cy="442.80266" rx="18.86483" ry="18.622279" stroke="#777878" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 370.9226 462.40503 L 370.9226 462.40503 L 344.3478 462.73174 L 344.84534 462.682" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="331" y="420.75" width="3.6089184" height="15.028482" fill="url(#Obj_Gradient_3)"/>
+      <rect x="331" y="420.75" width="3.6089184" height="15.028482" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1920 1080" width="160pc" height="90pc" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.2 
+    <dc:date>2017-01-03 04:38:41 +0000</dc:date>
+  </metadata>
+  <defs>
+    <filter id="Shadow" filterUnits="userSpaceOnUse">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="5.464643"/>
+      <feOffset in="blur" result="offset" dx="9" dy="9"/>
+      <feFlood flood-color="#909090" flood-opacity=".3" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in" result="color"/>
+      <feMerge>
+        <feMergeNode in="color"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cac257"/>
+      <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(868.2727 367.6975) rotate(-158) scale(106.0809)"/>
+    <linearGradient x1="0" x2="1" id="Gradient_2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0d53d"/>
+      <stop offset="1" stop-color="#fff4af"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient_2" xl:href="#Gradient_2" gradientTransform="translate(873.8689 360.38104) rotate(-150) scale(202.32415)"/>
+    <font-face font-family="Chalkboard" font-size="31" panose-1="3 5 6 2 4 2 2 2 2 5" units-per-em="1000" underline-position="-146.96133" underline-thickness="22.099448" slope="0" x-height="501.65746" cap-height="689.5028" ascent="980.1178" descent="-282.86743" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Chalkboard"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Trebuchet MS" font-size="35" panose-1="2 11 7 3 2 2 2 2 2 4" units-per-em="1000" underline-position="-127.4414" underline-thickness="97.65625" slope="0" x-height="532.71484" cap-height="727.5391" ascent="938.9648" descent="-222.16797" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="TrebuchetMS-Bold"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Pre-Treatment 3 - Background</title>
+    <rect fill="white" width="1920" height="1080"/>
+    <g>
+      <title>Layer 1</title>
+      <g filter="url(#Shadow)">
+        <path d="M 759.0552 341.6512 C 759.5511 342.04863 760.3588 342.15717 761.53385 341.91736 C 772.5747 338.4166 817.1593 326.3968 822.3847 305.06836 C 822.8952 303.84327 823.0241 302.23434 822.6331 300.14886 C 819.8493 285.3017 797.1508 235.5705 797.1508 235.5705 L 708.5638 251.05963 L 721.243 349.88326 C 721.243 349.88326 738.9095 346.27886 759.0552 341.6512 Z" fill="#cbcbcb"/>
+      </g>
+      <path d="M 781.5725 380.71394 C 796.4996 375.98095 857.3003 359.59752 863.1255 330.47143 C 857.6644 303.1657 809.2423 327.9229 809.2423 327.9229 C 809.2423 327.9229 763.7327 384.3547 781.5725 380.71394 Z" fill="url(#Obj_Gradient)"/>
+      <path d="M 843.586 228.45293 L 702 253.41837 L 727.7201 391.3611 C 727.7201 391.3611 751.3542 386.53915 778.2958 380.34987 C 805.2374 374.16057 835.4557 332.2918 835.4557 332.2918 C 835.4557 332.2918 866.9581 344.7311 863.2372 324.8865 C 859.5164 305.04192 843.586 228.45293 843.586 228.45293 Z" fill="url(#Obj_Gradient_2)"/>
+      <path d="M 843.586 228.45293 L 702 253.41837 L 727.7201 391.3611 C 727.7201 391.3611 751.3542 386.53915 778.2958 380.34987 C 805.2374 374.16057 835.4557 332.2918 835.4557 332.2918 C 835.4557 332.2918 866.9581 344.7311 863.2372 324.8865 C 859.5164 305.04192 843.586 228.45293 843.586 228.45293 Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6731835"/>
+      <text transform="translate(730.8743 260.01498) rotate(10)" fill="black">
+        <tspan font-family="Chalkboard" font-size="31" font-weight="500" x="8.31415" y="30" textLength="30.623204">W</tspan>
+        <tspan font-family="Chalkboard" font-size="31" font-weight="500" x="37.08763" y="30" textLength="15.106077">o</tspan>
+        <tspan font-family="Chalkboard" font-size="31" font-weight="500" x="52.673266" y="30" textLength="13.564641">r</tspan>
+        <tspan font-family="Chalkboard" font-size="31" font-weight="500" x="66.27216" y="30" textLength="63.6442">k in </tspan>
+        <tspan font-family="Chalkboard" font-size="31" font-weight="500" x="3.1760282" y="69.41106" textLength="17.949171">P</tspan>
+        <tspan font-family="Chalkboard" font-size="31" font-weight="500" x="20.645641" y="69.41106" textLength="13.564641">r</tspan>
+        <tspan font-family="Chalkboard" font-size="31" font-weight="500" x="33.76498" y="69.41106" textLength="15.106077">o</tspan>
+        <tspan font-family="Chalkboard" font-size="31" font-weight="500" x="49.350614" y="69.41106" textLength="16.339227">g</tspan>
+        <tspan font-family="Chalkboard" font-size="31" font-weight="500" x="66.58045" y="69.41106" textLength="13.564641">r</tspan>
+        <tspan font-family="Chalkboard" font-size="31" font-weight="500" x="79.46001" y="69.41106" textLength="16.304972">e</tspan>
+        <tspan font-family="Chalkboard" font-size="31" font-weight="500" x="96.48432" y="69.41106" textLength="26.718232">ss</tspan>
+      </text>
+      <text transform="translate(600 34.5)" fill="#509055">
+        <tspan font-family="Trebuchet MS" font-size="35" font-weight="bold" fill="#509055" x=".26513672" y="33" textLength="89.87549">Pre-T</tspan>
+        <tspan font-family="Trebuchet MS" font-size="35" font-weight="bold" fill="#509055" x="86.55176" y="33" textLength="335.1831">reatment (Stream 3)</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

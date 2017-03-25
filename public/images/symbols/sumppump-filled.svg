@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="536 599 40 50" width="40pt" height="50pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.2 
+    <dc:date>2017-03-24 04:06:47 +0000</dc:date>
+  </metadata>
+  <defs>
+    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdffff"/>
+      <stop offset="1" stop-color="#018df0"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(556.0047 606.5352) rotate(90) scale(37.2445)"/>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Objects</title>
+    <g>
+      <title>Sump Pump</title>
+      <rect x="551.7047" y="600" width="8.600002" height="8.59999" fill="white"/>
+      <rect x="551.7047" y="600" width="8.600002" height="8.59999" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 546.0802 641.7378 C 546.40826 641.7378 542.7173 645.0865 542.7173 645.0865 L 569.2921 644.7598 L 566.01125 641.49276 C 566.01125 641.49276 545.7521 641.7378 546.0802 641.7378 Z" fill="#a2a4a4"/>
+      <path d="M 546.0802 641.7378 C 546.40826 641.7378 542.7173 645.0865 542.7173 645.0865 L 569.2921 644.7598 L 566.01125 641.49276 C 566.01125 641.49276 545.7521 641.7378 546.0802 641.7378 Z" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <ellipse cx="556.0047" cy="625.15745" rx="18.86483" ry="18.622279" fill="url(#Obj_Gradient)"/>
+      <ellipse cx="556.0047" cy="625.15745" rx="18.86483" ry="18.622279" stroke="#777878" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 568.79457 644.7101 L 569.2921 644.7598 L 542.7173 645.0865 L 542.7173 645.0865" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

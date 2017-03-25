@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="136 513 40 44" width="40pt" height="44pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.2 
+    <dc:date>2017-03-24 04:05:03 +0000</dc:date>
+  </metadata>
+  <defs>
+    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdffff"/>
+      <stop offset="1" stop-color="#b9b9b9"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(155.8388 514.4304) rotate(90) scale(37.2445)"/>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Objects</title>
+    <g>
+      <title>Motor</title>
+      <path d="M 145.91427 549.95916 C 146.24235 549.95916 142.55141 553.3079 142.55141 553.3079 L 169.12617 552.9812 L 165.84534 549.7141 C 165.84534 549.7141 145.58618 549.95916 145.91427 549.95916 Z" fill="#a2a4a4"/>
+      <path d="M 145.91427 549.95916 C 146.24235 549.95916 142.55141 553.3079 142.55141 553.3079 L 169.12617 552.9812 L 165.84534 549.7141 C 165.84534 549.7141 145.58618 549.95916 145.91427 549.95916 Z" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 168.62878 552.9302 L 169.12617 552.9812 L 142.55141 553.3079 L 143.0456 553.23187" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <ellipse cx="155.8388" cy="533.05266" rx="18.86483" ry="18.622279" fill="url(#Obj_Gradient)"/>
+      <ellipse cx="155.8388" cy="533.05266" rx="18.86483" ry="18.622279" stroke="#777878" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="647 65 59 102" width="59pt" height="102pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.2 
+    <dc:date>2017-03-24 03:55:24 +0000</dc:date>
+  </metadata>
+  <defs>
+    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdffff"/>
+      <stop offset="1" stop-color="#ff9300"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(676.75 103.8356) rotate(90) scale(57)"/>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Objects</title>
+    <g>
+      <title>SWLP</title>
+      <rect x="671.25" y="87.5856" width="11" height="17" fill="white"/>
+      <rect x="671.25" y="87.5856" width="11" height="17" stroke="#898989" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 661.625 157.7106 C 662.125 157.7106 656.5 162.8356 656.5 162.8356 L 697 162.3356 L 692 157.3356 C 692 157.3356 661.125 157.7106 661.625 157.7106 Z" fill="#a2a4a4"/>
+      <path d="M 661.625 157.7106 C 662.125 157.7106 656.5 162.8356 656.5 162.8356 L 697 162.3356 L 692 157.3356 C 692 157.3356 661.125 157.7106 661.625 157.7106 Z" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <ellipse cx="676.75" cy="132.3356" rx="28.750046" ry="28.500046" fill="url(#Obj_Gradient)"/>
+      <ellipse cx="676.75" cy="132.3356" rx="28.750046" ry="28.500046" stroke="#777878" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 696.5039 162.27358 L 697 162.3356 L 656.5 162.8356 L 656.5 162.8356" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="665.5" y="65.8356" width="22" height="21.5" fill="black"/>
+      <rect x="665.5" y="65.8356" width="22" height="21.5" stroke="#898989" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

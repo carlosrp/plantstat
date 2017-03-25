@@ -1,0 +1,68 @@
+
+html, body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+.logo {
+    font-family: 'Amaranth', sans-serif;
+}
+
+/* Splash Page */
+
+#page-splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #A9CCE3;
+    background: radial-gradient(circle, #D4E6F1, #7FB3D5);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1A5276;
+    flex-direction: column;
+}
+
+#sign-in-button, #reset-password {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: inherit;
+}
+
+#login-message {
+	margin-top: 40px;
+	color: red;
+}
+
+/*#main-screen {
+	display: none;
+}*/
+
+.logo, .material-icons {
+    top: 4px;
+    font-size: 32px;
+    margin-right: -2px;
+    position: relative;
+}
+
+
+#main-screen, #plant-stat {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  /*border:1px solid #000000;*/
+}
+
+.plant-bck {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+}
+
+.plant-obj{
+  position: absolute;
+}
+

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="67 36 1686 992" width="1686pt" height="992pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.2 
+    <dc:date>2017-03-24 04:50:14 +0000</dc:date>
+  </metadata>
+  <defs>
+    <radialGradient cx="0" cy="0" r="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cbcbcb"/>
+      <stop offset="1" stop-color="#333"/>
+    </radialGradient>
+    <radialGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(111.85304 178.95107) scale(9.792461)"/>
+    <radialGradient id="Obj_Gradient_2" xl:href="#Gradient" gradientTransform="translate(112.5 234.7576) scale(11.882576)"/>
+    <radialGradient id="Obj_Gradient_3" xl:href="#Gradient" gradientTransform="translate(94.00187 237.25958) scale(19.3118)"/>
+    <radialGradient id="Obj_Gradient_4" xl:href="#Gradient" gradientTransform="translate(94.18271 182.20058) scale(14.26897)"/>
+    <linearGradient x1="0" x2="1" id="Gradient_2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient_5" xl:href="#Gradient_2" gradientTransform="translate(226.08955 602.2519) rotate(179) scale(16.972075)"/>
+    <linearGradient x1="0" x2="1" id="Gradient_3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient_6" xl:href="#Gradient_3" gradientTransform="translate(225.79345 602.5481) rotate(-1) scale(16.972045)"/>
+    <linearGradient id="Obj_Gradient_7" xl:href="#Gradient_2" gradientTransform="translate(433.54175 602.2519) rotate(179) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_8" xl:href="#Gradient_3" gradientTransform="translate(433.24565 602.5481) rotate(-1) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_9" xl:href="#Gradient_2" gradientTransform="translate(1230.784 415.2815) rotate(179) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_a" xl:href="#Gradient_3" gradientTransform="translate(1230.4879 415.5777) rotate(-1) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_b" xl:href="#Gradient_2" gradientTransform="translate(1326.8214 747.3519) rotate(179) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_c" xl:href="#Gradient_3" gradientTransform="translate(1326.5254 747.6481) rotate(-1) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_d" xl:href="#Gradient_2" gradientTransform="translate(1326.8214 902.3061) rotate(179) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_e" xl:href="#Gradient_3" gradientTransform="translate(1326.5254 902.6023) rotate(-1) scale(16.972075)"/>
+    <linearGradient x1="0" x2="1" id="Gradient_4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient_f" xl:href="#Gradient_4" gradientTransform="translate(522.51916 790.6214) rotate(-91) scale(16.972075)"/>
+    <linearGradient x1="0" x2="1" id="Gradient_5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient_10" xl:href="#Gradient_5" gradientTransform="translate(522.22295 790.3254) rotate(89) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_11" xl:href="#Gradient_4" gradientTransform="translate(522.51916 716.42145) rotate(-91) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_12" xl:href="#Gradient_5" gradientTransform="translate(522.22295 716.12535) rotate(89) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_13" xl:href="#Gradient_2" gradientTransform="translate(1326.8214 600.4252) rotate(179) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_14" xl:href="#Gradient_3" gradientTransform="translate(1326.5254 600.7214) rotate(-1) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_15" xl:href="#Gradient_2" gradientTransform="translate(1531.3214 719.8407) rotate(179) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_16" xl:href="#Gradient_3" gradientTransform="translate(1531.0254 720.1369) rotate(-1) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_17" xl:href="#Gradient_2" gradientTransform="translate(1531.3214 869.4815) rotate(179) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_18" xl:href="#Gradient_3" gradientTransform="translate(1531.0254 869.7777) rotate(-1) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_19" xl:href="#Gradient_2" gradientTransform="translate(1531.3214 1017.4815) rotate(179) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_1a" xl:href="#Gradient_3" gradientTransform="translate(1531.0254 1017.7777) rotate(-1) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_1b" xl:href="#Gradient_2" gradientTransform="translate(1230.2799 302.0815) rotate(179) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_1c" xl:href="#Gradient_3" gradientTransform="translate(1229.9838 302.3777) rotate(-1) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_1d" xl:href="#Gradient_2" gradientTransform="translate(1229.7531 183.08852) rotate(179) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_1e" xl:href="#Gradient_3" gradientTransform="translate(1227.7756 183.38473) rotate(-1) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_1f" xl:href="#Gradient_2" gradientTransform="translate(1230.2215 126.67205) rotate(179) scale(16.972075)"/>
+    <linearGradient id="Obj_Gradient_20" xl:href="#Gradient_3" gradientTransform="translate(1229.9254 126.96826) rotate(-1) scale(16.972075)"/>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Intake</title>
+    <g>
+      <title>Background</title>
+      <path d="M 1359.7823 1019.6817 L 1438.9127 1018.6817 L 1618.4074 1018.6453" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1360.892 870.0489 L 1440.0224 869.0489 L 1619.5171 869.0126" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1360.892 720.507 L 1440.0224 719.507 L 1619.5171 719.4706" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1179.9889 415.65657 L 1260 415.65657 L 1300 415.65657" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1300.4164 748.0182 L 1379.5468 747.0182 L 1379.6323 746.9818" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1301.4164 902.9724 L 1380.5468 901.9724 L 1380.6323 901.936" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="959.5" y1="563.64664" x2="960.6176" y2="639.2533" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 975.7101 665.4996 L 988.4385 639.0996 L 975.7101 639.0996 Z" fill="#ccc"/>
+      <rect x="944.4006" y="639.2242" width="31.399416" height="24.867763" fill="#cbcbcb"/>
+      <path d="M 944.6712 665.4918 L 931.9428 639.0918 L 944.6712 639.0918 Z" fill="#ccc"/>
+      <rect x="1576.4" y="180.4" width="7.5" height="390.2" fill="#d3d5d5"/>
+      <rect x="1421.5" y="249.8" width="162.40002" height="14.4" fill="#3f8040"/>
+      <path d="M 1082.6 481.2 L 1029.956 337.1013 L 1082.6 337.1013 Z" fill="#3f8040"/>
+      <path d="M 1083.444 111.06281 L 1030.8 258.3013 L 1083.444 258.3013 Z" fill="#3f8040"/>
+      <rect x="355.84355" y="258.3013" width="727.60045" height="78.800005" fill="#3f8040"/>
+      <rect x="141" y="279" width="88.69149" height="57.200005" fill="#3f8040"/>
+      <rect x="102.28295" y="176.87607" width="19.140186" height="4.1499967" fill="url(#Obj_Gradient)"/>
+      <rect x="102.28295" y="176.87607" width="19.140186" height="4.1499967" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <rect x="98.14463" y="188.20408" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="98.14463" y="188.20408" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="102.28295" y="188.20408" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="102.28295" y="188.20408" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="106.55023" y="188.20408" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="106.55023" y="188.20408" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="110.41752" y="188.20408" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="110.41752" y="188.20408" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="114.55584" y="188.20408" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="114.55584" y="188.20408" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="118.82313" y="188" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="118.82313" y="188" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="123.26285" y="188" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="123.26285" y="188" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="97.04907" y="190.03617" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="97.04907" y="190.03617" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="101.31636" y="190.03617" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="101.31636" y="190.03617" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="105.18365" y="190.03617" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="105.18365" y="190.03617" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="109.32196" y="190.03617" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="109.32196" y="190.03617" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="113.58925" y="190.03617" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="113.58925" y="190.03617" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="92.91075" y="190.03617" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="92.91075" y="190.03617" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="222.1915" y="150.52459" width="727.6277" height="7" fill="#d3d5d5"/>
+      <rect x="942.3191" y="156.70492" width="7.5" height="59.56967" fill="#d3d5d5"/>
+      <rect x="281.6915" y="216.4219" width="668.12766" height="7" fill="#d3d5d5"/>
+      <rect x="281.6915" y="223.4" width="7.5" height="184.111" fill="#d3d5d5"/>
+      <rect x="222.1915" y="157.52459" width="7.5" height="121.47541" fill="#d3d5d5"/>
+      <rect x="229.6915" y="157.52459" width="712.7085" height="58.75" fill="#3f7f40"/>
+      <rect x="229.6915" y="214.95492" width="52.5" height="197.04508" fill="#3f7f40"/>
+      <rect x="289.1915" y="401" width="660.87234" height="7" fill="#d3d5d5"/>
+      <rect x="942.5638" y="401" width="7.5" height="65.75" fill="#d3d5d5"/>
+      <rect x="222.1915" y="466.133" width="727.8723" height="7" fill="#d3d5d5"/>
+      <rect x="222.1915" y="336.133" width="7.5" height="130" fill="#d3d5d5"/>
+      <rect x="229.6915" y="407.8" width="713.1085" height="58.949994" fill="#3f8040"/>
+      <rect x="161.4" y="303.53832" width="120.79149" height="7" fill="#d3d5d5"/>
+      <rect x="141" y="272" width="81.19149" height="7" fill="#d3d5d5"/>
+      <rect x="141" y="336.133" width="81.19149" height="7" fill="#d3d5d5"/>
+      <rect x="125.1" y="246.2" width="23.4" height="7" fill="#d3d5d5"/>
+      <rect x="141" y="253.2" width="7.5" height="18.8" fill="#d3d5d5"/>
+      <rect x="141" y="343.133" width="7.5" height="18.8" fill="#d3d5d5"/>
+      <rect x="125.1" y="361.933" width="23.4" height="7" fill="#d3d5d5"/>
+      <rect x="117.6" y="246.17614" width="7.5" height="54.02386" fill="#d3d5d5"/>
+      <rect x="117.6" y="315.32924" width="7.5" height="53.60374" fill="#d3d5d5"/>
+      <rect x="100.8" y="293.2" width="16.8" height="7" fill="#d3d5d5"/>
+      <rect x="88.5" y="315.32924" width="29.100002" height="7" fill="#d3d5d5"/>
+      <rect x="81" y="239.59627" width="7.5" height="82.73297" fill="#d3d5d5"/>
+      <rect x="100.8" y="239.59627" width="7.5" height="53.60374" fill="#d3d5d5"/>
+      <rect x="100.8" y="232.6826" width="23.4" height="4.1499967" fill="url(#Obj_Gradient_2)"/>
+      <rect x="100.8" y="232.6826" width="23.4" height="4.1499967" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <rect x="74.80187" y="235.18458" width="38.4" height="4.1499967" fill="url(#Obj_Gradient_3)"/>
+      <rect x="74.80187" y="235.18458" width="38.4" height="4.1499967" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <rect x="67.79252" y="190.03617" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="67.79252" y="190.03617" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="71.93084" y="190.03617" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="71.93084" y="190.03617" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="76.19813" y="190.03617" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="76.19813" y="190.03617" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="80.06542" y="190.03617" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="80.06542" y="190.03617" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="84.20374" y="190.03617" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="84.20374" y="190.03617" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="88.47103" y="190.03617" width="2.6" height="40.549997" fill="#cbcbcb"/>
+      <rect x="88.47103" y="190.03617" width="2.6" height="40.549997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <rect x="80.06542" y="180.12558" width="28.23458" height="4.1499967" fill="url(#Obj_Gradient_4)"/>
+      <rect x="80.06542" y="180.12558" width="28.23458" height="4.1499967" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <rect x="125.09798" y="253.19394" width="15.90202" height="108.73904" fill="#3f8040"/>
+      <rect x="88.47103" y="239.59627" width="12.273599" height="75.80374" fill="#3f8040"/>
+      <rect x="100.74463" y="300.2" width="24.355374" height="15.2" fill="#3f8040"/>
+      <rect x="303.3953" y="252.4335" width="727.6277" height="7" fill="#d3d5d5"/>
+      <rect x="295.88298" y="252.4335" width="7.5" height="345.5665" fill="#d3d5d5"/>
+      <rect x="356" y="336.92717" width="7.5" height="261.07284" fill="#d3d5d5"/>
+      <rect x="363.5" y="336.92717" width="667.52294" height="7" fill="#d3d5d5"/>
+      <rect x="303.3266" y="259.45776" width="52.67339" height="338.54225" fill="#3f8040"/>
+      <rect x="326.18806" y="300.2" width="7.5" height="297.8" fill="#d3d5d5"/>
+      <rect x="326.18806" y="296.2375" width="430.31194" height="7" fill="#d3d5d5"/>
+      <path d="M 290.83667 606.4 L 327.03667 598.4 L 290.83667 598.4 Z" fill="black"/>
+      <path d="M 290.83667 606.4 L 327.03667 598.4 L 290.83667 598.4 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 368.4 606.4 L 327.87334 598.4 L 368.4 598.4 Z" fill="black"/>
+      <path d="M 368.4 606.4 L 327.87334 598.4 L 368.4 598.4 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 290.6 606.6 L 350.55125 606.4 L 368.4 606.7783" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="756.5" y="286.2" width="7.5" height="26.4" fill="#d3d5d5"/>
+      <rect x="756.5" y="279.2" width="21.7" height="7" fill="#d3d5d5"/>
+      <rect x="756.5" y="312.6" width="21.7" height="7" fill="#d3d5d5"/>
+      <rect x="790.7532" y="279.2" width="21.7" height="7" fill="#d3d5d5"/>
+      <rect x="790.7532" y="312.6" width="21.7" height="7" fill="#d3d5d5"/>
+      <rect x="804.9532" y="286.2" width="7.5" height="26.4" fill="#d3d5d5"/>
+      <rect x="812.1096" y="296.2375" width="12.1" height="7" fill="#d3d5d5"/>
+      <rect x="823.8112" y="286.2" width="7.5" height="26.4" fill="#d3d5d5"/>
+      <rect x="823.8112" y="279.2" width="21.7" height="7" fill="#d3d5d5"/>
+      <rect x="823.8112" y="312.6" width="21.7" height="7" fill="#d3d5d5"/>
+      <rect x="857.2675" y="279.2" width="21.7" height="7" fill="#d3d5d5"/>
+      <rect x="857.2675" y="312.6" width="21.7" height="7" fill="#d3d5d5"/>
+      <rect x="871.4675" y="286.2" width="7.5" height="26.4" fill="#d3d5d5"/>
+      <rect x="878.9675" y="296.2984" width="139.83247" height="7" fill="#d3d5d5"/>
+      <path d="M 1083.444 113.05278 L 1030.5779 258.3013 L 1024 255.90717 L 1076.8662 110.65864 Z" fill="#d3d5d5"/>
+      <rect x="1076.8" y="110.65864" width="72.8" height="7" fill="#d3d5d5"/>
+      <path d="M 1078.0925 488.1134 L 1024 339.49546 L 1030.5779 337.1013 L 1084.6704 485.71925 Z" fill="#d3d5d5"/>
+      <rect x="1078.1095" y="481.5176" width="78.99057" height="7" fill="#d3d5d5"/>
+      <rect x="1082.6" y="117.89905" width="67" height="363.30095" fill="#3f8040"/>
+      <rect x="1149.6" y="111.06281" width="7.5" height="116.68719" fill="#d3d5d5"/>
+      <rect x="1149.6" y="371.4262" width="7.5" height="78.800005" fill="#d3d5d5"/>
+      <rect x="1149.6" y="227.75" width="99.39998" height="7" fill="#d3d5d5"/>
+      <rect x="1149.6" y="251.27358" width="99.39998" height="7" fill="#d3d5d5"/>
+      <rect x="1149.6" y="364.4262" width="99.39998" height="7" fill="#d3d5d5"/>
+      <rect x="1149.6" y="339.6669" width="99.39998" height="7" fill="#d3d5d5"/>
+      <rect x="1149.6" y="252.4335" width="7.5" height="87.18355" fill="#d3d5d5"/>
+      <rect x="1149.6" y="474.5145" width="99.39998" height="7" fill="#d3d5d5"/>
+      <rect x="1149.6" y="449.25787" width="99.39998" height="7" fill="#d3d5d5"/>
+      <rect x="1241.5" y="214.8" width="7.5" height="12.949997" fill="#d3d5d5"/>
+      <rect x="1241.5" y="326.7169" width="7.5" height="12.949997" fill="#d3d5d5"/>
+      <rect x="1241.5" y="436.30787" width="7.5" height="12.949997" fill="#d3d5d5"/>
+      <rect x="1241.5" y="258.2736" width="7.5" height="12.949997" fill="#d3d5d5"/>
+      <rect x="1241.5" y="271.22358" width="186.90002" height="7" fill="#d3d5d5"/>
+      <rect x="1241.5" y="371.4262" width="7.5" height="12.949997" fill="#d3d5d5"/>
+      <rect x="1241.5" y="384.3762" width="186.90002" height="7" fill="#d3d5d5"/>
+      <rect x="1241.5" y="481.5176" width="7.5" height="12.949997" fill="#d3d5d5"/>
+      <rect x="1241.5" y="494.4676" width="186.90002" height="7" fill="#d3d5d5"/>
+      <rect x="1421.4" y="264.22358" width="157.4" height="7" fill="#d3d5d5"/>
+      <rect x="1421.2563" y="377.3762" width="157.4" height="7" fill="#d3d5d5"/>
+      <rect x="1421.2563" y="487.46757" width="157.4" height="7" fill="#d3d5d5"/>
+      <rect x="1421.4" y="214.8" width="7.5" height="34.949997" fill="#d3d5d5"/>
+      <rect x="1420.9" y="326.7169" width="7.5" height="34.949997" fill="#d3d5d5"/>
+      <rect x="1420.9" y="436.30787" width="7.5" height="34.949997" fill="#d3d5d5"/>
+      <rect x="1421.4" y="242.75" width="157.4" height="7" fill="#d3d5d5"/>
+      <rect x="1421.4" y="354.6669" width="157.4" height="7" fill="#d3d5d5"/>
+      <rect x="1421.4" y="464.25787" width="157.4" height="7" fill="#d3d5d5"/>
+      <rect x="1576.4" y="570.6" width="119.59998" height="7" fill="#d3d5d5"/>
+      <rect x="1576.4" y="180.5" width="119.36559" height="7" fill="#d3d5d5"/>
+      <rect x="1691.5" y="40.5" width="7.5" height="147" fill="#d3d5d5"/>
+      <rect x="1691" y="570.5617" width="7.5" height="342.4" fill="#d3d5d5"/>
+      <rect x="1691.5" y="40.5" width="59" height="7" fill="#d3d5d5"/>
+      <rect x="1691" y="905.9617" width="59" height="7" fill="#d3d5d5"/>
+      <rect x="1745.3902" y="40.756703" width="7.5" height="872.2433" fill="#d3d5d5"/>
+      <rect x="1149.6" y="234" width="99.39998" height="18.433487" fill="#3f8040"/>
+      <rect x="1249" y="223.05826" width="172.5" height="48.165323" fill="#3f8040"/>
+      <rect x="1420.9" y="361.6669" width="163" height="15.933106" fill="#3f8040"/>
+      <rect x="1249" y="336.2109" width="172.5" height="48.165323" fill="#3f8040"/>
+      <rect x="1149.6" y="345.9927" width="99.39998" height="18.433487" fill="#3f8040"/>
+      <rect x="1149.6" y="456.25787" width="99.39998" height="18.433487" fill="#3f8040"/>
+      <rect x="1248.9" y="446.30225" width="172.5" height="48.165323" fill="#3f8040"/>
+      <rect x="1421.4" y="471.25787" width="163" height="15.933106" fill="#3f8040"/>
+      <rect x="1583.8461" y="187.5" width="115.15386" height="383.1" fill="#3f8040"/>
+      <rect x="1698.8" y="47.5" width="46.59022" height="858.7" fill="#3f8040"/>
+      <rect x="281.6915" y="670" width="95.80851" height="7" fill="#d3d5d5"/>
+      <rect x="281.75905" y="841.5" width="38.893603" height="7" fill="#d3d5d5"/>
+      <rect x="336.8064" y="841.5" width="38.893603" height="7" fill="#d3d5d5"/>
+      <rect x="281.75905" y="670" width="7.5" height="173.75" fill="#d3d5d5"/>
+      <rect x="370.21684" y="670" width="7.5" height="178.5" fill="#d3d5d5"/>
+      <rect x="313.15266" y="848.5" width="7.5" height="42.5" fill="#d3d5d5"/>
+      <rect x="336.8064" y="848.5" width="7.5" height="62.5" fill="#d3d5d5"/>
+      <rect x="199.5" y="904" width="137.3064" height="7" fill="#d3d5d5"/>
+      <rect x="247.5" y="884" width="65.65266" height="7" fill="#d3d5d5"/>
+      <rect x="192" y="868.5" width="7.5" height="42.5" fill="#d3d5d5"/>
+      <rect x="192" y="861.5" width="21" height="7" fill="#d3d5d5"/>
+      <rect x="213" y="861.5" width="7.5" height="23" fill="#d3d5d5"/>
+      <rect x="213" y="884" width="21" height="7" fill="#d3d5d5"/>
+      <rect x="229" y="868" width="7.5" height="23" fill="#d3d5d5"/>
+      <rect x="229" y="861" width="26" height="7" fill="#d3d5d5"/>
+      <rect x="247.5" y="868" width="7.5" height="23" fill="#d3d5d5"/>
+      <rect x="289.25905" y="677" width="80.48775" height="166.75" fill="#011863"/>
+      <rect x="320.65266" y="841.758" width="16.15374" height="62.5" fill="#011863"/>
+      <rect x="199.5" y="891" width="121.15266" height="13.257968" fill="#011863"/>
+      <rect x="236.5" y="868" width="11.700004" height="23" fill="#011863"/>
+      <rect x="199.5" y="868.5" width="13.5" height="22.5" fill="#011863"/>
+      <rect x="756.5" y="691" width="109.5" height="113" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="764" y="701" width="21.7" height="95" fill="black"/>
+      <rect x="764" y="701" width="21.7" height="95" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="764" y="769.6" width="21.7" height="26.4" fill="#d7b467"/>
+      <line x1="1040.7064" y1="744.1569" x2="1040.4" y2="803.9357" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1169.7064" y1="744.1569" x2="1169.4" y2="803.9357" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1040.4" y1="803.9357" x2="1169.4" y2="803.9357" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1040.4" y1="754.9569" x2="1169.4" y2="754.9569" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <line x1="1400.3064" y1="663.8288" x2="1400" y2="698.20375" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1400" y1="698.20375" x2="1589.0535" y2="698.5597" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1597.667" y1="664.6211" x2="1589.0535" y2="697.9008" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1597.8727" y1="663.58025" x2="1603.17" y2="663.6" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1603.17" y1="663.6435" x2="1609.4409" y2="675.183" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="1401" y="669.8" width="186.66422" height="27.94078" fill="#cbcbcb"/>
+      <path d="M 1587.6642 698.20375 L 1595.1642 669.8 L 1587.6642 669.8 Z" fill="#ccc"/>
+      <line x1="1401.3064" y1="812.7485" x2="1401" y2="847.1235" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1401" y1="847.1235" x2="1590.0535" y2="847.4794" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1598.667" y1="813.5408" x2="1590.0535" y2="846.8206" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1598.8727" y1="812.5" x2="1604.17" y2="812.5198" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1604.17" y1="812.5632" x2="1610.4409" y2="824.1027" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="1402" y="818.7198" width="186.66422" height="27.94078" fill="#cbcbcb"/>
+      <path d="M 1588.6642 847.1235 L 1596.1642 818.7198 L 1588.6642 818.7198 Z" fill="#ccc"/>
+      <line x1="1402.3064" y1="962.7485" x2="1402" y2="997.1235" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1402" y1="997.1235" x2="1591.0535" y2="997.4794" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1599.667" y1="963.5408" x2="1591.0535" y2="996.8206" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1599.8727" y1="962.5" x2="1605.17" y2="962.5198" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1605.17" y1="962.5632" x2="1611.4409" y2="974.1027" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="1403" y="968.7198" width="186.66422" height="27.94078" fill="#cbcbcb"/>
+      <path d="M 1589.6642 997.1235 L 1597.1642 968.7198 L 1589.6642 968.7198 Z" fill="#ccc"/>
+      <ellipse cx="1366.022" cy="224.925" rx="43.50015" ry="44.42514" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1346.6407" y1="184.83415" x2="1385.4033" y2="264.2" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 1376.9356 183.37074 L 1364.7014 218.5236 L 1346.6407 264.2" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <ellipse cx="1366.022" cy="338.025" rx="43.50015" ry="44.42514" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1346.6407" y1="297.93416" x2="1385.4033" y2="377.3" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 1376.9356 296.47074 L 1364.7014 331.6236 L 1346.6407 377.3" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <ellipse cx="1366.022" cy="447.838" rx="43.50015" ry="44.42514" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1346.6407" y1="407.74717" x2="1385.4033" y2="487.113" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 1376.9356 406.28375 L 1364.7014 441.4366 L 1346.6407 487.113" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 209.2681 593.7704 L 225.9415 602.4 L 209.2681 611.0296 Z" fill="url(#Obj_Gradient_5)"/>
+      <path d="M 209.2681 593.7704 L 225.9415 602.4 L 209.2681 611.0296 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 242.61487 611.0296 L 225.9415 602.4 L 242.61487 593.7704 Z" fill="url(#Obj_Gradient_6)"/>
+      <path d="M 242.61487 611.0296 L 225.9415 602.4 L 242.61487 593.7704 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 416.7203 593.7704 L 433.3937 602.4 L 416.7203 611.0296 Z" fill="url(#Obj_Gradient_7)"/>
+      <path d="M 416.7203 593.7704 L 433.3937 602.4 L 416.7203 611.0296 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 450.0671 611.0296 L 433.3937 602.4 L 450.0671 593.7704 Z" fill="url(#Obj_Gradient_8)"/>
+      <path d="M 450.0671 611.0296 L 433.3937 602.4 L 450.0671 593.7704 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1213.9625 406.8 L 1230.636 415.4296 L 1213.9625 424.0592 Z" fill="url(#Obj_Gradient_9)"/>
+      <path d="M 1213.9625 406.8 L 1230.636 415.4296 L 1213.9625 424.0592 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1247.3093 424.0592 L 1230.636 415.4296 L 1247.3093 406.8 Z" fill="url(#Obj_Gradient_a)"/>
+      <path d="M 1247.3093 424.0592 L 1230.636 415.4296 L 1247.3093 406.8 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1310 738.8704 L 1326.6734 747.5 L 1310 756.1296 Z" fill="url(#Obj_Gradient_b)"/>
+      <path d="M 1310 738.8704 L 1326.6734 747.5 L 1310 756.1296 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1343.3468 756.1296 L 1326.6734 747.5 L 1343.3468 738.8704 Z" fill="url(#Obj_Gradient_c)"/>
+      <path d="M 1343.3468 756.1296 L 1326.6734 747.5 L 1343.3468 738.8704 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1310 893.8246 L 1326.6734 902.4542 L 1310 911.0838 Z" fill="url(#Obj_Gradient_d)"/>
+      <path d="M 1310 893.8246 L 1326.6734 902.4542 L 1310 911.0838 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1343.3468 911.0838 L 1326.6734 902.4542 L 1343.3468 893.8246 Z" fill="url(#Obj_Gradient_e)"/>
+      <path d="M 1343.3468 911.0838 L 1326.6734 902.4542 L 1343.3468 893.8246 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <line x1="369" y1="603" x2="416.7203" y2="602.48924" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="242.61487" y1="603.1" x2="289.25905" y2="603.39426" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="370.21684" y1="713.6" x2="448.01684" y2="714.1649" stroke="#001863" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <line x1="370.21684" y1="685.7494" x2="521.91235" y2="684.5" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="521.87106" y1="684.5" x2="522.2834" y2="843.8247" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="522.87106" y1="751.2494" x2="632.37106" y2="749.9072" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="632.37106" y1="719.4" x2="632.37106" y2="780.33395" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="720.2" y1="719.4" x2="720.2" y2="780.33395" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="720.2" y1="749.5362" x2="756.5" y2="749.1959" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="632.37106" y1="718.7384" x2="720.2" y2="718.36735" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="632.37106" y1="780.4471" x2="720.2" y2="780.0761" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 531.00066 773.8 L 522.37106 790.4734 L 513.74145 773.8 Z" fill="url(#Obj_Gradient_f)"/>
+      <path d="M 531.00066 773.8 L 522.37106 790.4734 L 513.74145 773.8 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 513.74145 807.1468 L 522.37106 790.4734 L 531.00066 807.1468 Z" fill="url(#Obj_Gradient_10)"/>
+      <path d="M 513.74145 807.1468 L 522.37106 790.4734 L 531.00066 807.1468 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 531.00066 699.6 L 522.37106 716.2734 L 513.74145 699.6 Z" fill="url(#Obj_Gradient_11)"/>
+      <path d="M 531.00066 699.6 L 522.37106 716.2734 L 513.74145 699.6 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 513.74145 732.9468 L 522.37106 716.2734 L 531.00066 732.9468 Z" fill="url(#Obj_Gradient_12)"/>
+      <path d="M 513.74145 732.9468 L 522.37106 716.2734 L 531.00066 732.9468 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <line x1="522.87106" y1="843.8247" x2="1210.1" y2="841.875" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="781" y1="563.8626" x2="1448.718" y2="561.9129" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="781" y1="563.8626" x2="781" y2="610.73446" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="830" y1="563.8626" x2="830" y2="610.73446" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="931.9716" y1="639.4402" x2="944.7" y2="664.30795" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="944.7" y1="664.30795" x2="974.5554" y2="664.30795" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="988.0284" y1="639.6328" x2="975.3" y2="664.30795" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="931.9716" y1="639.4402" x2="988.4385" y2="639.07186" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="866" y1="728.9711" x2="999.7669" y2="729.9711" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1000.8406" y1="729.4373" x2="1049.1841" y2="729.9711" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1049.1841" y1="729.9711" x2="1049.1841" y2="770.6294" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="961" y1="627.8" x2="1070.5" y2="627.5058" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1070.5" y1="627.5058" x2="1070.5" y2="770.6294" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1119.4" y1="577.13165" x2="1117.8876" y2="720.24775" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1100.6" y1="720.2942" x2="1210.1" y2="720" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1100.3616" y1="720.71515" x2="1100.3616" y2="763.4088" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1138.6" y1="720.71515" x2="1138.6" y2="763.4088" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="377.08553" y1="888.2152" x2="1300.4727" y2="886.1168" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1300.4164" y1="903.1161" x2="1301.4164" y2="600.84986" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 344.3064 887.8378 L 363.93757 887.8906 L 377.08553 888.2152" stroke="#a9d5ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 1301.4115 601.01404 L 1380.5419 600.01404 L 1380.6274 599.97766" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1310 591.9437 L 1326.6734 600.5733 L 1310 609.2029 Z" fill="url(#Obj_Gradient_13)"/>
+      <path d="M 1310 591.9437 L 1326.6734 600.5733 L 1310 609.2029 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1343.3468 609.2029 L 1326.6734 600.5733 L 1343.3468 591.9437 Z" fill="url(#Obj_Gradient_14)"/>
+      <path d="M 1343.3468 609.2029 L 1326.6734 600.5733 L 1343.3468 591.9437 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1514.5 711.3592 L 1531.1734 719.9888 L 1514.5 728.6184 Z" fill="url(#Obj_Gradient_15)"/>
+      <path d="M 1514.5 710.8908 L 1531.1734 719.5204 L 1514.5 728.15 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1547.8468 728.6184 L 1531.1734 719.9888 L 1547.8468 711.3592 Z" fill="url(#Obj_Gradient_16)"/>
+      <path d="M 1547.8468 728.15 L 1531.1734 719.5204 L 1547.8468 710.8908 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1514.5 861 L 1531.1734 869.6296 L 1514.5 878.2592 Z" fill="url(#Obj_Gradient_17)"/>
+      <path d="M 1514.5 860.5316 L 1531.1734 869.1612 L 1514.5 877.7908 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1547.8468 878.2592 L 1531.1734 869.6296 L 1547.8468 861 Z" fill="url(#Obj_Gradient_18)"/>
+      <path d="M 1547.8468 877.7908 L 1531.1734 869.1612 L 1547.8468 860.5316 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1514.5 1009 L 1531.1734 1017.6296 L 1514.5 1026.2592 Z" fill="url(#Obj_Gradient_19)"/>
+      <path d="M 1514.5 1009.9368 L 1531.1734 1018.5664 L 1514.5 1027.196 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1547.8468 1026.2592 L 1531.1734 1017.6296 L 1547.8468 1009 Z" fill="url(#Obj_Gradient_1a)"/>
+      <path d="M 1547.8468 1027.196 L 1531.1734 1018.5664 L 1547.8468 1009.9368 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <line x1="1119" y1="491.33333" x2="1120" y2="549.3333" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1447.718" y1="499.6333" x2="1448.718" y2="561.9129" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1447.718" y1="393.17723" x2="1448.718" y2="455.45685" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1447.718" y1="283.81006" x2="1448.718" y2="346.0897" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1448.718" y1="200.37504" x2="1448.718" y2="234.75" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1409.522" y1="200.66922" x2="1448.718" y2="200.37504" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1408.522" y1="314.99135" x2="1447.718" y2="314.69716" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1408.522" y1="423.1481" x2="1447.718" y2="422.85394" stroke="#d8b467" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1177.7327" y1="70.12579" x2="1178.7327" y2="221.06918" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1178.9889" y1="264.22358" x2="1178.9889" y2="329.79798" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1178.9889" y1="376.6398" x2="1178.9889" y2="415.65657" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1300" y1="415.65657" x2="1310.6888" y2="421.5206" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 1306.8 429 L 1314.3 416.52734 L 1310.6888 421.5206" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 1180.2426 302.4 L 1260.2537 302.4 L 1300.2537 302.4" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1300" y1="302.35372" x2="1310.6888" y2="308.21776" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 1306.8 315.69716 L 1314.3 303.2245 L 1310.6888 308.21776" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 1213.4585 293.6 L 1230.1319 302.2296 L 1213.4585 310.8592 Z" fill="url(#Obj_Gradient_1b)"/>
+      <path d="M 1213.4585 293.6 L 1230.1319 302.2296 L 1213.4585 310.8592 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1246.8053 310.8592 L 1230.1319 302.2296 L 1246.8053 293.6 Z" fill="url(#Obj_Gradient_1c)"/>
+      <path d="M 1246.8053 310.8592 L 1230.1319 302.2296 L 1246.8053 293.6 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      <path d="M 1178.4816 183.1668 L 1258.1056 183.00424 L 1298.1056 183.00424" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1298.1056" y1="183.00424" x2="1308.7944" y2="188.86828" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 1304.9056 196.34768 L 1312.4056 183.87502 L 1308.7944 188.86828" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 1212.9316 174.60702 L 1229.605 183.23662 L 1212.9316 191.86623 Z" fill="url(#Obj_Gradient_1d)"/>
+      <path d="M 1212.9316 174.60702 L 1229.605 183.23662 L 1212.9316 191.86623 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 1244.597 191.86623 L 1227.9236 183.23662 L 1244.597 174.60702 Z" fill="url(#Obj_Gradient_1e)"/>
+      <path d="M 1244.597 191.86623 L 1227.9236 183.23662 L 1244.597 174.60702 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1309.8" y1="190.8" x2="1317.3" y2="209.15625" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1309.8" y1="189.2" x2="1330.6667" y2="188.2" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1309.8" y1="190.8" x2="1322.522" y2="196.66667" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1311.44" y1="309.8" x2="1318.94" y2="328.15625" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1311.44" y1="308.2" x2="1332.3066" y2="307.2" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1311.44" y1="309.8" x2="1324.1619" y2="315.66667" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1311.44" y1="423.4" x2="1318.94" y2="441.75625" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1311.44" y1="421.8" x2="1332.3066" y2="420.8" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1311.44" y1="423.4" x2="1324.1619" y2="429.26667" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 1180.1824 126.81604 L 1259.8064 126.65349 L 1489.1667 125.81604" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1213.4 118.19055 L 1230.0734 126.82016 L 1213.4 135.44976 Z" fill="url(#Obj_Gradient_1f)"/>
+      <path d="M 1213.4 118.19055 L 1230.0734 126.82016 L 1213.4 135.44976 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 1246.7468 135.44976 L 1230.0734 126.82016 L 1246.7468 118.19055 Z" fill="url(#Obj_Gradient_20)"/>
+      <path d="M 1246.7468 135.44976 L 1230.0734 126.82016 L 1246.7468 118.19055 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1489.1667" y1="125.81604" x2="1490.1667" y2="234.75" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1489.1667" y1="283.8" x2="1490.1667" y2="346.0796" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1489.1667" y1="392.21413" x2="1489.1667" y2="429.3866" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1489.6" y1="430.6" x2="1482.1" y2="430.6192" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1477.5412" y1="426.5441" x2="1485.0412" y2="435.8216" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1461.1983" y1="426.5441" x2="1481.3556" y2="431.2624" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1464.0514" y1="436.30787" x2="1481.2763" y2="431.1643" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1471.7546" y1="446.30225" x2="1481.2704" y2="431.15706" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1488.4018" y1="311.02748" x2="1480.9018" y2="311.04668" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1476.343" y1="306.97156" x2="1483.843" y2="316.24906" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1460" y1="306.97156" x2="1480.1573" y2="311.68986" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1462.8531" y1="316.73534" x2="1480.078" y2="311.5918" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1470.5564" y1="326.7297" x2="1480.0721" y2="311.58454" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1488.4018" y1="188.89007" x2="1480.9018" y2="188.90927" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1476.343" y1="184.83415" x2="1483.843" y2="194.11166" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1460" y1="184.83415" x2="1480.1573" y2="189.55246" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1462.8531" y1="194.59794" x2="1480.078" y2="189.45438" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1470.5564" y1="204.5923" x2="1480.0721" y2="189.44713" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 1177.7327 70.12579 L 1257.3567 69.96324 L 1256.9187 70.12579" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1389.6 70.12579 L 1469.224 69.96324 L 1609.843 70.96324" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1610.2" y1="71.84906" x2="1609.843" y2="178.8873" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1257.3567" y1="40.186335" x2="1257.3567" y2="100.06211" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1389.6" y1="40.656205" x2="1389.6" y2="99.37888" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1257.3567 40.34888 L 1366.9173 40.186335 L 1389.6 40.656205" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1257.3567 99.91737 L 1366.9173 99.75482 L 1389.6 100.22469" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 371.43003 888.498 L 387.58377 881.5808 L 383.13325 888.2097 L 387.41893 894.8387 Z" fill="#a9d5ff"/>
+      <path d="M 371.43003 888.498 L 387.58377 881.5808 L 383.13325 888.2097 L 387.41893 894.8387 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <line x1="313.15266" y1="669.76744" x2="313.0929" y2="606.525" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="343.55573" y1="670.1913" x2="343.496" y2="606.94885" stroke="#3f8040" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M 343.8125 644.9606 L 336.8953 628.8069 L 343.52427 633.2574 L 350.15325 628.9717 Z" fill="#3f8040"/>
+      <path d="M 343.8125 644.9606 L 336.8953 628.8069 L 343.52427 633.2574 L 350.15325 628.9717 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <path d="M 313.41004 645.2008 L 306.49284 629.0471 L 313.12182 633.4976 L 319.7508 629.2119 Z" fill="#3f8040"/>
+      <path d="M 313.41004 645.2008 L 306.49284 629.0471 L 313.12182 633.4976 L 319.7508 629.2119 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <path d="M 564.6368 750.9267 L 580.7905 744.0095 L 576.34 750.6385 L 580.6257 757.2675 Z" fill="#d7b467"/>
+      <path d="M 564.6368 750.9267 L 580.7905 744.0095 L 576.34 750.6385 L 580.6257 757.2675 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <path d="M 999.6862 729.6219 L 983.5325 736.5391 L 987.983 729.9101 L 983.6973 723.2811 Z" fill="#d7b467"/>
+      <path d="M 999.6862 729.6219 L 983.5325 736.5391 L 987.983 729.9101 L 983.6973 723.2811 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <path d="M 413.1793 714.2588 L 429.33306 707.3416 L 424.88254 713.9706 L 429.16823 720.5996 Z" fill="#001863"/>
+      <path d="M 413.1793 714.2588 L 429.33306 707.3416 L 424.88254 713.9706 L 429.16823 720.5996 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <path d="M 1069.5148 627.24196 L 1053.361 634.15916 L 1057.8116 627.5302 L 1053.5259 620.9012 Z" fill="#d7b467"/>
+      <path d="M 1069.5148 627.24196 L 1053.361 634.15916 L 1057.8116 627.5302 L 1053.5259 620.9012 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <path d="M 1212.2036 719.7278 L 1196.0499 726.645 L 1200.5004 720.0161 L 1196.2147 713.3871 Z" fill="#d7b467"/>
+      <path d="M 1212.2036 719.7278 L 1196.0499 726.645 L 1200.5004 720.0161 L 1196.2147 713.3871 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <path d="M 1211.4586 841.6058 L 1195.3049 848.523 L 1199.7554 841.8941 L 1195.4697 835.2651 Z" fill="#d7b467"/>
+      <path d="M 1211.4586 841.6058 L 1195.3049 848.523 L 1199.7554 841.8941 L 1195.4697 835.2651 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      <line x1="1360.7646" y1="720.1207" x2="1361.9673" y2="600.2488" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1619.6268" y1="718.6255" x2="1620.6268" y2="650.9054" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1580.8853 650.9054 L 1619.5413 650.9418 L 1619.6268 650.9054" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1489.7046" y1="668.9243" x2="1489.8998" y2="638.4462" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1416.4" y1="669.8" x2="1416.5952" y2="660.43746" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1580.2877" y1="669.6305" x2="1580.483" y2="650.9054" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1381.6755" y1="610.1295" x2="1381.8707" y2="595.8146" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1381.9404" y1="594.8146" x2="1440.2649" y2="595.0199" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1619.6268" y1="868.1674" x2="1620.6268" y2="800.4474" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1580.8853 800.4474 L 1619.5413 800.4837 L 1619.6268 800.4474" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1489.7046" y1="818.4662" x2="1489.8998" y2="787.9881" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1416.4" y1="819.3419" x2="1416.5952" y2="809.9794" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1580.2877" y1="819.1725" x2="1580.483" y2="800.4474" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1381.6755" y1="757.2392" x2="1381.8707" y2="743.3052" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1381.9404" y1="742.3052" x2="1440.2649" y2="742.5105" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1618.5171" y1="1017.8002" x2="1619.5171" y2="950.0801" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1579.7756 950.0801 L 1618.4316 950.1165 L 1618.5171 950.0801" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1488.5948" y1="968.099" x2="1488.79" y2="937.6209" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1415.2903" y1="968.9747" x2="1415.4855" y2="959.6122" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1579.178" y1="968.8052" x2="1579.3732" y2="950.0801" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1380.5658" y1="914.154" x2="1380.761" y2="897.5534" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1380.8307" y1="896.5534" x2="1439.1552" y2="896.7587" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1359.7823" y1="870.0489" x2="1361.1385" y2="747.2508" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="1358.5989" y1="1019.1489" x2="1359.5989" y2="902.8944" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M 1393.6654 720.1592 L 1377.5116 727.0764 L 1381.9622 720.44745 L 1377.6765 713.81845 Z" fill="#9ac0e5"/>
+      <path d="M 1396.9845 869.2425 L 1380.8307 876.1597 L 1385.2813 869.5308 L 1380.9956 862.9018 Z" fill="#9ac0e5"/>
+      <path d="M 1396.9845 1018.8753 L 1380.8307 1025.7925 L 1385.2813 1019.1635 L 1380.9956 1012.5345 Z" fill="#9ac0e5"/>
+      <path d="M 1200.4891 126.53194 L 1184.3353 133.44914 L 1188.786 126.82018 L 1184.5002 120.19117 Z" fill="#3e8040"/>
+      <path d="M 1202.5039 182.96796 L 1186.3501 189.88516 L 1190.8007 183.2562 L 1186.515 176.6272 Z" fill="#3e8040"/>
+      <path d="M 1202.5039 301.9414 L 1186.3501 308.8586 L 1190.8007 302.22963 L 1186.515 295.60063 Z" fill="#3e8040"/>
+      <path d="M 1201.9449 415.1414 L 1185.7911 422.0586 L 1190.2417 415.42963 L 1185.956 408.80063 Z" fill="#3e8040"/>
+      <path d="M 1489.955 158.3538 L 1483.0377 142.2 L 1489.6667 146.6506 L 1496.2957 142.3649 Z" fill="#3e8040"/>
+      <path d="M 1610.0548 91.91285 L 1616.972 108.06666 L 1610.343 103.61606 L 1603.714 107.90176 Z" fill="#3e8040"/>
+      <line x1="1392.2071" y1="610.7735" x2="1381.5183" y2="610.6607" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1392.6292" y1="757.8952" x2="1381.9404" y2="757.7824" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="1390.9329" y1="914.5755" x2="1380.244" y2="914.4626" stroke="#9abfe5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g>
+      <title>Texts &amp; Labels</title>
+      <rect x="568.2615" y="59.59918" width="64.5" height="14" fill="#eef528"/>
+      <rect x="568.2615" y="59.59918" width="64.5" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(568.2615 59.59918)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="21.688477" y="11" textLength="6.673828">L</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="27.47754" y="11" textLength="15.333984">TP</tspan>
+      </text>
+      <rect x="632.7615" y="59.59918" width="64.5" height="14" fill="#ff7e79"/>
+      <rect x="632.7615" y="59.59918" width="64.5" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(632.7615 59.59918)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="10.904297" y="11" textLength="42.691406">Flushed</tspan>
+      </text>
+      <rect x="697.2615" y="59.59918" width="64.5" height="14" fill="#55dd61"/>
+      <rect x="697.2615" y="59.59918" width="64.5" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(697.2615 59.59918)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="5.9003906" y="11" textLength="52.69922">Operation</tspan>
+      </text>
+      <rect x="761.7615" y="59.59918" width="64.5" height="14" fill="#0096ff"/>
+      <rect x="761.7615" y="59.59918" width="64.5" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(761.7615 59.59918)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="17.91211" y="11" textLength="28.67578">Filled</tspan>
+      </text>
+      <rect x="826.2615" y="59.59918" width="64.5" height="14" fill="#ff9300"/>
+      <rect x="826.2615" y="59.59918" width="64.5" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(826.2615 59.59918)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="11.238281" y="11" textLength="42.02344">Drained</tspan>
+      </text>
+      <rect x="503.7615" y="59.59918" width="64.5" height="14" fill="#ccc"/>
+      <rect x="503.7615" y="59.59918" width="64.5" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(503.7615 59.59918)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="7.901367" y="11" textLength="48.697266">no status</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
