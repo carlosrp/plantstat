@@ -1,0 +1,24 @@
+{
+  "rules": {
+    "dynElements": {
+      ".read": "auth != null",
+      ".write": false,
+      "$areaId": {
+        "$objId": {
+          ".write": false,
+          "status": {
+            ".write": "auth != null"
+          }
+        }
+      }
+    },
+    "typeAttrs": {
+      ".read": "auth != null",
+      ".write": false
+    },
+    "users": {
+      ".read": "auth != null",
+      ".write": false
+    }
+  }
+}

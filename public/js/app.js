@@ -1,17 +1,19 @@
 /**
  * app.js
  */
-'use strict';
+"use strict";
 
 /**
  * Dynamic Element class object
  */
 var DynElement = function(tag, name, type, x, y, status) {
+  "use strict";
   this.tag = tag;
   this.name = name;
   this.type = type;
   this.x = x;
   this.y = y;
+  this.width = appModel.typeAttrs[type].width;
   this.status = status;
   this.nStatus = appModel.typeAttrs[type].nStatus;
   this.imgList = appModel.typeAttrs[type].imgList;
@@ -77,7 +79,8 @@ var appModel = {
     { id: 'dps', name: 'DPs', menu: 'menu-dps', loaded: false, bckImg: 'images/dps-background.svg' }
   ],
   typeAttrs: [],
-  dynElements: new Array(NUM_AREAS), // Collections of dynamic elements for each area
+  //dynElements: new Array(NUM_AREAS), // Collections of dynamic elements for each area
+  dynElements: [NUM_AREAS], // Collections of dynamic elements for each area
   loadArea: function( idxArea ) {
 
     // Check if data initilisation is finished
@@ -107,21 +110,21 @@ var appModel = {
       appController.initArea( idxArea, this.areas[idxArea].bckImg );
       // Get list of dynamic elements
       var dynElementsRef = appController.rootRef.child('dynElements/' + idxArea);
-      dynElementsRef.once('value').then(dynElsSnap => {
+      dynElementsRef.once('value').then(function(dynElsSnap) {
         console.log('listDynElements returned:', dynElsSnap.val());
         var listDynElements = dynElsSnap.val();
         // Create array for the selected area dynElements
         appModel.dynElements[idxArea] = [];
         // Add dynamic elements
         listDynElements.forEach(function(el, idxDynEl) {
-          console.log('Adding element:', el.tag);
+          console.log('Adding element:', el.tag, 'at (', el.x, el.y, ')');
           // -> Create JS object for dyn element (sets initial status)
           var dynEl = new DynElement(el.tag, el.name, el.type, el.x, el.y, el.status);
           appController.addDynElement( idxArea, idxDynEl, dynEl );
           appModel.dynElements[idxArea].push( dynEl );
           // Listen for dynElements status changes
           dynEl.ref = dynElementsRef.child( idxDynEl + '/status' );
-          dynEl.ref.on('value', snapStatus => {
+          dynEl.ref.on('value', function(snapStatus) {
             dynEl.updateStatus(snapStatus.val());
           });
         });
@@ -145,14 +148,16 @@ var appModel = {
   },
   isAreaLoaded: function( aid ) {
     // Check for correct aid
-    if( aid >= this.areas.length )
+    if( aid >= this.areas.length ) {
       return false;
+    }
     return this.areas[aid].loaded;
   },
   updateAreaField: function( aid, fieldName, val ) {
     // Check for correct aid
-    if( aid >= this.areas.length )
+    if( aid >= this.areas.length ) {
       return;
+    }
     let area = this.areas[aid];
     switch(fieldName) {
       case 'loaded':
@@ -188,7 +193,7 @@ var appController = {
     this.fbListenAuthChanges();
     // Read basic configuration from datastore
     const typeAttrsRef = this.rootRef.child('typeAttrs');
-    typeAttrsRef.once('value').then(typeAttrsSnap => {
+    typeAttrsRef.once('value').then(function(typeAttrsSnap) {
       appModel.typeAttrs = typeAttrsSnap.val();
       appModel.initialised = true;  // Flag to show initialised is finished (it is set asynchronously)
       console.log('Initialisation finished');
@@ -336,7 +341,11 @@ var appView = {
       });
     });
 
-    // Add resising logic
+    // Find initial sizing
+    this.getActualViewSize();
+    console.log('Initial width ratio:', this.actualWidthRatio);
+
+    // Add resising listener
     window.addEventListener('resize', this.resizeThrottler);
   },
   resizeThrottler: function() {
@@ -348,25 +357,41 @@ var appView = {
        }, 1000);
     }
   },
-  actualResizeHandler: function() {
+  getActualViewSize: function() {
     appView.actualViewWidth = document.documentElement.clientWidth;
     appView.actualViewHeight = document.documentElement.clientHeight;
     appView.actualWidthRatio = appView.actualViewWidth / STD_WIDTH;
+    // Set initial application window size
+    var mainScreen = document.getElementById('main-screen');
+    mainScreen.style.width = STD_WIDTH * this.actualWidthRatio + "px";
+ },
+  actualResizeHandler: function() {
+    appView.getActualViewSize();
     console.log('Resizing: width ratio', appView.actualWidthRatio );
-    //console.log('Resizing (win):', window.innerWidth, window.innerHeight);
+    ///////
+    // ToDo: find all backgrounds/dyn objects created and resize them...
   },
   initAreaDOM: function(idxArea, bckImgFile) {
     var bckImg = document.createElement('img');
     bckImg.setAttribute('src', bckImgFile);
     bckImg.setAttribute('class', 'plant-bck');
+    bckImg.style.left = "0px";
+    bckImg.style.top = "0px";
+    bckImg.style.width = STD_WIDTH * this.actualWidthRatio + "px"; // Scale background to current view
+    bckImg.style.height = STD_HEIGHT * this.actualWidthRatio + "px"; // Scale background to current view
     this.divArea[idxArea].appendChild(bckImg);
   },
+  // resizeAreaBck: function(idxArea) {
+  //   this.divArea[idxArea].
+  // },
   addDynElementToDOM: function(idxArea, idxDynEl, dynEl) {
+    console.log('..adding element to DOM at (', dynEl.x * this.actualWidthRatio, ',', dynEl.y * this.actualWidthRatio, ') width ', dynEl.width * this.actualWidthRatio);
     dynEl.imgEl = document.createElement('img');
     dynEl.imgEl.setAttribute('class', 'plant-obj');
     dynEl.imgEl.setAttribute('src', dynEl.getCurrentImg());
-    dynEl.imgEl.style.left = dynEl.x;
-    dynEl.imgEl.style.top = dynEl.y;
+    dynEl.imgEl.style.left = dynEl.x * this.actualWidthRatio + "px"; // Scale position to current view size
+    dynEl.imgEl.style.top = dynEl.y * this.actualWidthRatio + "px";  // Scale position to current view size
+    dynEl.imgEl.style.width = dynEl.width * this.actualWidthRatio + "px";        // Scale object size to current view
     dynEl.imgEl.setAttribute('onclick', 'appView.dynElementClicked(' + idxArea + ',' + idxDynEl + ')');
     this.divArea[idxArea].appendChild(dynEl.imgEl);
   },
@@ -398,7 +423,7 @@ var appView = {
     this.splashPage.style.display = '';
     this.mainScreen.style.display = 'none';
   },
-  dynElementClicked(idxArea, idxDynEl) {
+  dynElementClicked: function(idxArea, idxDynEl) {
     appController.rotateDynElement(idxArea, idxDynEl);
   }
 };
@@ -407,9 +432,3 @@ var appView = {
 window.addEventListener('load', function() {
   appController.init();
 }, false);
-
-// function actualResizeHandler() {
-//     console.log('Resizing:', document.documentElement.clientWidth, document.documentElement.clientHeight);
-//     //console.log('Resizing (win):', window.innerWidth, window.innerHeight);
-// }
-
