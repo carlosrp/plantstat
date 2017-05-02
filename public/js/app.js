@@ -4,6 +4,33 @@
 "use strict";
 
 /**
+ * Module constants
+ */
+// Area Id's
+const NUM_AREAS = 14;
+const AID_INTAKE = 0;
+const AID_PT1 = 1;
+const AID_PT2 = 2;
+const AID_PT3 = 3;
+const AID_RO1 = 4;
+const AID_RO2 = 5;
+const AID_RO3 = 6;
+const AID_PT_CHEM = 7;
+const AID_RO_CHEM = 8;
+const AID_SLUDGE = 9;
+const AID_LIME = 10;
+const AID_POTAB = 11;
+const AID_TRANSFER = 12;
+const AID_DPS = 13;
+
+// Reference document/window dimensions
+const STD_WIDTH = 1920;  
+const STD_HEIGHT = 1080;
+
+// Min time (in milliseconds) between resizing events
+const RESIZING_TIME = 1000;
+
+/**
  * Dynamic Element class object
  */
 var DynElement = function(tag, name, type, x, y, status) {
@@ -37,27 +64,8 @@ DynElement.prototype.getCurrentImg = function(){
   return this.imgList[this.status];
 };
 
-// Area Id's
-const NUM_AREAS = 14;
-const AID_INTAKE = 0;
-const AID_PT1 = 1;
-const AID_PT2 = 2;
-const AID_PT3 = 3;
-const AID_RO1 = 4;
-const AID_RO2 = 5;
-const AID_RO3 = 6;
-const AID_PT_CHEM = 7;
-const AID_RO_CHEM = 8;
-const AID_SLUDGE = 9;
-const AID_LIME = 10;
-const AID_POTAB = 11;
-const AID_TRANSFER = 12;
-const AID_DPS = 13;
-const STD_WIDTH = 1920;  // Reference document/window dimensions
-const STD_HEIGHT = 1080; // Reference document/window dimensions
-
 /**
- *
+ * Application Model object
  */
 var appModel = {
   initialised: false,
@@ -173,15 +181,12 @@ var appModel = {
   }
 };
 
+/**
+* Application Controller object
+ */
 var appController = {
 
-  config: {
-    apiKey: "AIzaSyBmWsoB6qtm1nLerSf0yY_Jx_3SwphyLTE",
-    authDomain: "plantstat.firebaseapp.com",
-    databaseURL: "https://plantstat.firebaseio.com",
-    storageBucket: "plantstat.appspot.com",
-    messagingSenderId: "363782380167"
-  },
+  config: appConfig,
   rootRef: {},
   init: function() {
     // Initialise appView
@@ -206,29 +211,53 @@ var appController = {
   currentUID: null,
   currentUserEmail: null,
   currentUsername: null,
+  /**
+   * ToDo: document...
+   */
   selectArea: function(idxArea) {
     appModel.loadArea(idxArea);
   },
+  /**
+   * ToDo: document...
+   */
   initArea: function(idxArea, bckImg) {
     appView.initAreaDOM(idxArea, bckImg);
   },
+  /**
+   * ToDo: document...
+   */
   showArea: function(idxArea) {
     appView.showArea(idxArea);
   },
+  /**
+   * ToDo: document...
+   */
   hideArea: function(idxArea) {
     appView.hideArea(idxArea);
   },
+  /**
+   * ToDo: document...
+   */
   addDynElement: function(idxArea, idxDynEl, dynEl) {
     appView.addDynElementToDOM( idxArea, idxDynEl, dynEl );
   },
+  /**
+   * ToDo: document...
+   */
   setDynElImg: function(dynEl, img) {
     appView.setDynElImg(dynEl, img);
   },
+  /**
+   * ToDo: document...
+   */
   rotateDynElement: function(idxArea, idxDynEl) {
     appModel.rotateDynElement(idxArea, idxDynEl);
     // In Progress -- console.log('Element', dynElementsCollection[id].tag, 'clicked');
     // In Progress -- dynElementsCollection[id].cycleStatus();
   },
+  /**
+   * ToDo: document...
+   */
   fbLogin: function( email, password ) {
     firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
       // Login error
@@ -272,9 +301,15 @@ var appController = {
       email: email
     });
   },
+  /**
+   * ToDo: document...
+   */
   fbListenAuthChanges: function() {
     firebase.auth().onAuthStateChanged(this.onAuthStateChanged);
   },
+  /**
+   * ToDo: document...
+   */
   fbLogout: function() {
     firebase.auth().signOut();
   },
@@ -282,10 +317,13 @@ var appController = {
    * Send Password reset email for current user
    */
   fbPasswordResetEmail: function() {
-
+    // ToDo
   }
 };
 
+/**
+ * Application View object
+ */
 var appView = {
   // Shortcuts to DOM Elements.
   splashPage: {},
@@ -304,7 +342,7 @@ var appView = {
   actualViewHeight: STD_HEIGHT,
   actualWidthRatio: 1.0,
   /**
-   * Initialise app View object
+   * Initialise app View object; called from appController.init() when application starts
    */
   init: function(areas) {
     // Get DOM elements
@@ -346,17 +384,32 @@ var appView = {
     console.log('Initial width ratio:', this.actualWidthRatio);
 
     // Add resising listener
-    window.addEventListener('resize', this.resizeThrottler);
+    window.addEventListener('resize', areas => {
+      // ignore resize events as long as an actualResizeHandler execution is in the queue
+      if ( !this.resizeTimeout ) {
+        this.resizeTimeout = setTimeout(function() {
+          this.resizeTimeout = null;
+          appView.actualResizeHandler(areas);
+         }, RESIZING_TIME);
+      }
+    })
   },
-  resizeThrottler: function() {
-    // ignore resize events as long as an actualResizeHandler execution is in the queue
-    if ( !this.resizeTimeout ) {
-      this.resizeTimeout = setTimeout(function() {
-        this.resizeTimeout = null;
-        appView.actualResizeHandler();
-       }, 1000);
-    }
-  },
+  /**
+   * Function called from windows' resize event listener.
+   * It throttles the numner of calls to the resizing function, to save rendering resources.
+   */
+  // resizeThrottler: function() {
+  //   // ignore resize events as long as an actualResizeHandler execution is in the queue
+  //   if ( !this.resizeTimeout ) {
+  //     this.resizeTimeout = setTimeout(function() {
+  //       this.resizeTimeout = null;
+  //       appView.actualResizeHandler();
+  //      }, RESIZING_TIME);
+  //   }
+  // },
+  /**
+   * ToDo: document...
+   */
   getActualViewSize: function() {
     appView.actualViewWidth = document.documentElement.clientWidth;
     appView.actualViewHeight = document.documentElement.clientHeight;
@@ -364,13 +417,19 @@ var appView = {
     // Set initial application window size
     var mainScreen = document.getElementById('main-screen');
     mainScreen.style.width = STD_WIDTH * this.actualWidthRatio + "px";
- },
-  actualResizeHandler: function() {
+  },
+  /**
+   * ToDo: document...
+   */
+  actualResizeHandler: function(areas) {
     appView.getActualViewSize();
     console.log('Resizing: width ratio', appView.actualWidthRatio );
     ///////
     // ToDo: find all backgrounds/dyn objects created and resize them...
   },
+  /**
+   * ToDo: document...
+   */
   initAreaDOM: function(idxArea, bckImgFile) {
     var bckImg = document.createElement('img');
     bckImg.setAttribute('src', bckImgFile);
@@ -381,9 +440,9 @@ var appView = {
     bckImg.style.height = STD_HEIGHT * this.actualWidthRatio + "px"; // Scale background to current view
     this.divArea[idxArea].appendChild(bckImg);
   },
-  // resizeAreaBck: function(idxArea) {
-  //   this.divArea[idxArea].
-  // },
+  /**
+   * ToDo: document...
+   */
   addDynElementToDOM: function(idxArea, idxDynEl, dynEl) {
     console.log('..adding element to DOM at (', dynEl.x * this.actualWidthRatio, ',', dynEl.y * this.actualWidthRatio, ') width ', dynEl.width * this.actualWidthRatio);
     dynEl.imgEl = document.createElement('img');
@@ -395,34 +454,58 @@ var appView = {
     dynEl.imgEl.setAttribute('onclick', 'appView.dynElementClicked(' + idxArea + ',' + idxDynEl + ')');
     this.divArea[idxArea].appendChild(dynEl.imgEl);
   },
+  /**
+   * ToDo: document...
+   */
   setDynElImg: function(dynEl, img) {
     dynEl.imgEl.setAttribute('src', dynEl.getCurrentImg());
   },
+  /**
+   * ToDo: document...
+   */
   showArea: function(idxArea) {
     this.divArea[idxArea].classList.remove('hidden');
   },
+  /**
+   * ToDo: document...
+   */
   hideArea: function(idxArea) {
     this.divArea[idxArea].classList.add('hidden');
   },
+  /**
+   * ToDo: document...
+   */
   errLogin: function(msg) {
     this.msgLogin.innerHTML = msg;
     this.msgLogin.classList.remove('hidden');
     this.fsLogin.removeAttribute('disabled');
   },
+  /**
+   * ToDo: document...
+   */
   cleanupLogin: function() {
     this.inpEmail.value = '';
     this.inpPassword.value = '';
     this.fsLogin.removeAttribute('disabled');
   },
+  /**
+   * ToDo: document...
+   */
   loggedIn: function(email) {
     this.txtUsername.innerHTML = email;
     this.splashPage.style.display = 'none';
     this.mainScreen.style.display = '';
   },
+  /**
+   * ToDo: document...
+   */
   loggedOut: function() {
     this.splashPage.style.display = '';
     this.mainScreen.style.display = 'none';
   },
+  /**
+   * ToDo: document...
+   */
   dynElementClicked: function(idxArea, idxDynEl) {
     appController.rotateDynElement(idxArea, idxDynEl);
   }
